@@ -5,14 +5,9 @@
       "TOKEN": {
         "description": "Your bot token from the Discord Developer Portal",
         "required": true
+   
       },
-      "PREFIX":{
-        "description": "Prefix",
-        "required": true
-      }
-      "YOUTUBE_API_KEY": {
-        "description": "Youtube Data API V3"
-        "required": true
+     
     },
     "repository": "https://github.com/SatyamSSJ10/testrepoevo",
     "stack": "container",
