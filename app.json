@@ -1,7 +1,16 @@
 {
-  "name": "EvoBot",
-  "description": "🤖 Discord Music Bot built with discord.js",
-  "repository": "https://github.com/eritislami/evobot",
-  "logo": "https://i.imgur.com/JFxgbWH.png",
-  "keywords": ["discord", "discordjs", "music", "bot"]
+    "name": "music bot",
+    "description": "a bot made for socialweebs server",
+    "env": {
+      "TOKEN": {
+        "description": "Your bot token from the Discord Developer Portal",
+        "required": true
+      },
+      "PREFIX":{
+        "description": "Prefix",
+        "required": true
+      }
+      "YOUTUBE_API_KEY":{
+        "description": "Youtube Data API V3"
+        "required": true
 }
