@@ -15,6 +15,9 @@ RUN groupadd -r ${USER} && \
 USER ${USER}
 WORKDIR /home/evobot
 
+# Create config.json from config.sample.json
+COPY config.sample.json config.json
+
 COPY package*.json ./
 RUN npm install
 VOLUME [ "/home/evobot" ]
