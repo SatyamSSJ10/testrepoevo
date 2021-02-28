@@ -10,7 +10,18 @@
         "description": "Prefix",
         "required": true
       }
-      "YOUTUBE_API_KEY":{
+      "YOUTUBE_API_KEY": {
         "description": "Youtube Data API V3"
         "required": true
-}
+    },
+    "repository": "https://github.com/SatyamSSJ10/testrepoevo",
+    "stack": "container",
+    "formation": {
+      "worker": {
+        "quantity": 1
+      }
+    },
+    "keywords": [
+      "discord"
+    ],
+  }
